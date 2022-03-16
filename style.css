@@ -2,19 +2,39 @@
     margin: 0;
     padding: 0;
 }
-body {
+.container {
+    width: 500px;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 50vh;
+    height: 200px;
+    padding: 20px;
+    background-color:#5f6368;
+    opacity: .8;
+    color:white;
+    border-radius: 10px;
+    
+}
+h1{
+    margin-bottom: 20px;
 }
 .fa-star-o:before {
+    font-size: 25px;
     content: "\f006";
-    color: #5f6368;
+    color: white;
 }
 
 .fa-star:before {
+    font-size: 25px;
     content: "\f005";
-    color: #d56e0c;
+    color: yellow;
+}
+#star i{
+    margin-right: 10px;
+}
+#display-star-value{
+    padding-top: 10px;
+    font-size: 30px;
 }
